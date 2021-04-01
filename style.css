@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+}
+
+.side-nav {
+    position: fixed;
+    width: 260px;
+    height: 100%;
+    background-color: black;
+    opacity: 80;
+    display: flex;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: red;
+}
+
+input {
+    width: 120px;
+    background-color: red;
+    opacity: 90%;
+    border-color: white;
+    color: white;
+}
+
+input:-ms-input-placeholder {color: white;}
+input::-webkit-input-placeholder {color: white;}
+input::-moz-placeholder {color: white;}
+
+button {
+    background-color: red;
+    color: white;
+    border-color: white;
+}
+
+.main {
+    width: 1400px;
+    height: 750px;
+    margin-left: 260px;
+    background-image: url(bgnetflix.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
